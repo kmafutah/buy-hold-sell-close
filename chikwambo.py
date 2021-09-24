@@ -17,7 +17,7 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 from stable_baselines3 import PPO
 
 def get_data(symbol='#Ethereum',timeframe='M1'):
-    MT4_files_dir = '/Volumes/Users/AyibSniper/AppData/Roaming/MetaQuotes/Terminal/CCD68BFB06049A8615C607C3F6AD69B7/MQL4/Files/'
+    MT4_files_dir = '/Volumes/Users/XXXXXXX/AppData/Roaming/MetaQuotes/Terminal/XXXXXXXXXXXXXXXXXXXXXXXXXX/MQL4/Files/'
     dwx = dwx_client(metatrader_dir_path=MT4_files_dir,verbose=False)
     end = datetime.now()
     start = end - timedelta(minutes=1440)  # last 24 hours
@@ -118,7 +118,7 @@ while True:
             if done:
                 
                 # print(TradingEnvAction(info['last_15_position_predictions'][-1:]))
-                MT4_files_dir = '/Volumes/Users/AyibSniper/AppData/Roaming/MetaQuotes/Terminal/CCD68BFB06049A8615C607C3F6AD69B7/MQL4/Files/'
+                MT4_files_dir = '/Volumes/Users/XXXXXXX/AppData/Roaming/MetaQuotes/Terminal/XXXXXXXXXXXXXXXXXXXXXXXXXX/MQL4/Files/'
                 dwx = dwx_client(metatrader_dir_path=MT4_files_dir,verbose=False)
 
                 print(Counter(actions))
