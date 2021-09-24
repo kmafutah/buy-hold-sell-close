@@ -137,7 +137,7 @@ while True:
                             print('closing sell: ',val,flush=True)
                             dwx.close_order(val)
                             sleep(1)                    
-                    dwx.open_order(symbol='#Ethereum', order_type='buy', lots=0.02,magic=137)
+                    dwx.open_order(symbol='#Ethereum', order_type='buy', lots=0.02,magic=1337)
                     sleep(1)
                     print('Orders After Action: ',dwx.account_info)
                     for val in dwx.open_orders:
@@ -149,7 +149,7 @@ while True:
                             print('closing buy: ',val,flush=True)
                             dwx.close_order(val)
                             sleep(2)
-                    dwx.open_order(symbol='#Ethereum', order_type='sell', lots=0.02,magic=137)
+                    dwx.open_order(symbol='#Ethereum', order_type='sell', lots=0.02,magic=1337)
                     sleep(1)
                     print('Orders After Action: ',dwx.account_info)
                     for val in dwx.open_orders:
