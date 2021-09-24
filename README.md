@@ -6,3 +6,6 @@ The .MT4, .MT5 and dwx_client.py are files form https://github.com/darwinex/dwxc
 TODO: 
 TradingGymEnv - need to be fixed to mimic exchange env
 chikwambo.py -  change to use on bar event, hist-data returns delayed data but good got quick dev
+chikwambo.py - Use indicators to normalise data... 
+chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance, current works work 1000
+
