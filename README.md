@@ -10,7 +10,7 @@ chikwambo.py -  change to use on bar event, hist-data returns delayed data but g
 
 chikwambo.py - Use indicators to normalise data... 
 
-chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance, current works work 1000
+chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance.
 
 chikwambo.py -  on powerful PC allow model to be Trained every 15min/30min this has shown to have better results
 
