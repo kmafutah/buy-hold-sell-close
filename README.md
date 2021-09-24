@@ -15,3 +15,9 @@ chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance, c
 chikwambo.py -  on powerful PC allow model to be Trained every 15min/30min this has shown to have better results
 
 <code>pip install stable-baselines3[extra]</code>
+
+Change the two lines with <b>MT4_files_dir</b> to point to your MT4 or MT5 where the .MT4, .MT5 is running.
+
+<code>MT4_files_dir = '/Volumes/Users/XXXXXXX/AppData/Roaming/MetaQuotes/Terminal/XXXXXXXXXXXXXXXXXXXXXXXXXX/MQL4/Files/' </code>
+
+You can also run on two separate machines. just make sure the machine running chikwambo.py is pointing to machine running MetaTrader
