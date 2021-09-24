@@ -12,4 +12,6 @@ chikwambo.py - Use indicators to normalise data...
 
 chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance, current works work 1000
 
+chikwambo.py -  on powerful PC allow model to be Trained every 15min/30min this has shown to have better results
+
 <code>pip install stable-baselines3[extra]</code>
