@@ -12,3 +12,4 @@ chikwambo.py - Use indicators to normalise data...
 
 chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance, current works work 1000
 
+<code>pip install stable-baselines3[extra]</code>
