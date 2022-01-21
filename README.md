@@ -8,9 +8,9 @@ TradingGymEnv - need to be fixed to mimic exchange env
 
 chikwambo.py -  change to use on bar event, hist-data returns delayed data but good for quick dev
 
-chikwambo.py - Use indicators to normalise data... 
+chikwambo.py - Use indicators to normalise data... **done - (see app.py)**
 
-chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance.
+chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance.**50% done,pending 'mini Balance' - (see app.py)**
 
 chikwambo.py -  on powerful PC allow model to be Trained every 15min/30min this has shown to have better results
 
