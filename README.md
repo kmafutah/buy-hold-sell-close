@@ -14,7 +14,7 @@ chikwambo.py - add ability to trade on 15M,1H and 4H to allow minimal balance.**
 
 chikwambo.py -  on powerful PC allow model to be Trained every 15min/30min this has shown to have better results
 
-<code>pip install Metatrader5 dash hashlib</code> -  only for app.y - will try create non Metatrader5 dependent verion on app.py
+<code>pip install Metatrader5 dash hashlib gym_mtsim</code> -  only for app.y - will try create non Metatrader5 dependent verion on app.py
 
 <code>pip install stable-baselines3[extra]</code>
 
