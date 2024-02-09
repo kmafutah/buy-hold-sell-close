@@ -95,7 +95,7 @@ def main():
 
     if options.mode == "train":
         # Create Environment
-        path_to_info_csv = f'{config.MT_DATA_PATH}AccountInfo/4299206-Kudakwashe-Mafutah.csv'
+        path_to_info_csv = f'{config.MT_DATA_PATH}AccountInfo/<broker account #>-<Fullname on broker account>.csv'
         acc_info = pd.read_csv(path_to_info_csv)
         sim = MtSimulator(
             unit=acc_info['currency'],
